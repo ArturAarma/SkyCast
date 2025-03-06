@@ -9,16 +9,17 @@ function App() {
   const {darkMode, setDarkMode} = useContext(DarkModeContext);
 
   return (
-    <div className={`min-h-screen bg-gray-200 text-black dark:bg-gray-900 dark:text-white`}>
+    <div className={`min-h-screen bg-gray-200  dark:bg-gray-900 `}>
       {/* Header */}
       <header className="bg-gray-400 w-full flex justify-between items-center px-6 py-4 shadow-md">
-        <h1 className="text-2xl font-semibold">Weather Dashboard</h1>
+        <h1 className="text-2xl font-semibold text-white">Weather Dashboard</h1>
 
         <input
           type="text"
           placeholder="Search city or postcode"
-          className="bg-blue-800 focus:bg-blue-700 p-2 rounded-lg focus:outline-none text-white"
+          className="bg-blue-800 focus:w-[300px] dark:bg-gray-800 p-2 rounded-lg focus:outline-none text-white"
         />
+
 
         {/* Dark Mode Toggle Button */}
         <button

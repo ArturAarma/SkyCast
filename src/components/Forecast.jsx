@@ -13,6 +13,10 @@ function Forecast({className}) {
           <p className="text-lg">+25°C</p>
           <p className="text-sm">18 May, Thu</p>
         </div>
+
+
+
+        
       </section>
     )
 }
