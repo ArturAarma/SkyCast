@@ -1,4 +1,4 @@
-# 🌤 Weather Dashboard
+# 🌤 SkyCast
 
 A **modern, responsive Weather Dashboard** built with **React and Tailwind CSS**, featuring **dark mode**, real-time weather data fetching, and a clean, user-friendly UI. This project allows users to **search for cities**, view **current weather conditions**, and track humidity and temperature trends.
 
