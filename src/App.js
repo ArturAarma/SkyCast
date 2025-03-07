@@ -7,7 +7,7 @@ import Header from "./components/Header";
 import GetWeatherData from "./functions/GetWeatherData";
 
 // cities to load on opening the site
-const preloadedCities = ["Tallinn", "Berlin"];
+const preloadedCities = ["Tallinn", "Berlin", "Paris", "Lissabon"];
 
 function App() {
 
@@ -27,6 +27,7 @@ function App() {
                     city: data.name,
                     temperature: data.main.temp,
                     humidity: data.main.humidity,
+                    wind: data.wind.speed
                 } : null;
             })
         );
