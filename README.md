@@ -29,9 +29,9 @@ Will upload it soon!
    git clone https://github.com/yourusername/weather-dashboard.git
    cd weather-dashboard
    ```
-2. Install dependencies using Yarn:
+2. Install dependencies using Node:
    ```bash
-   yarn install
+   npm install
    ```
 3. Add your OpenWeather API key in a `.env` file:
    ```env
@@ -39,7 +39,7 @@ Will upload it soon!
    ```
 4. Start the project:
    ```bash
-   yarn start
+   npm run start
    ```
 
 ## 🌟 Future Improvements
