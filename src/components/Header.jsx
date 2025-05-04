@@ -25,7 +25,7 @@ return (
             />
 
         <button 
-        className="bg-blue-700 dark: bg-gray-900 dark:hover:bg-gray-950 text-white px-4 py-2 rounded-lg hover:bg-blue-900 transition-transform transform active:scale-110 duration-300" 
+        className="bg-blue-700 dark:bg-gray-900 dark:hover:bg-gray-950 text-white px-4 py-2 rounded-lg hover:bg-blue-900 transition-transform transform active:scale-110 duration-300" 
         onClick={handleSearch}
         >Search
         </button>

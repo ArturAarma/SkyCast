@@ -1,6 +1,6 @@
 import React from "react";
 
-const WeatherCard = ({weather, weatherData}) => {
+const WeatherCard = ({ weatherData}) => {
 
   
 // preloaded cities and cities that you can search
