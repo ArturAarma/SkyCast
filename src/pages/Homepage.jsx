@@ -91,9 +91,9 @@ function Homepage() {
   </div>
 </div>
 
-{/* Overview Section */}
-<div className="w-full flex justify-center py-10 px-4">
-  <div className="w-full max-w-2xl px-6 py-6 bg-green-600 dark:bg-gray-800 rounded-3xl flex items-center justify-center">
+{/* Search Section */}
+<div className="w-full flex justify-center max-w-screen py-10 px-4">
+        <div className="w-full px-6 py-6 bg-green-600 dark:bg-gray-800 max-w-screen rounded-3xl flex items-center justify-center">
     <Search />
   </div>
 </div>
