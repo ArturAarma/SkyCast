@@ -1,5 +1,5 @@
 
-import {React, useState} from 'react';
+
 
 
 const cityName = 'Tallinn'
@@ -17,7 +17,7 @@ async function GetWeatherData(cityName) {
   
     
     try {
-        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apikey}&units=metric`);
+        const response = await fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${cityName}&appid=${apikey}&units=metric`);
 
     if (!response.ok) {
         throw new Error('Something went wrong fetching the API')

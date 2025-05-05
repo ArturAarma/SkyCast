@@ -16,19 +16,25 @@ function Search({darkMode, setDarkMode, fetchWeather}) {
 
 return (
     
-    <div>
+    <div className="flex justify-center">
         
         <div className="flex items-center space-x-2">
                 <input
                 type="text"
-                placeholder="Search city or postcode"
-                className="bg-green-800 transition-all duration-300 w-[200px] md:w-[250] focus:md:w-[300px] dark:bg-gray-900 p-2 rounded-lg focus:outline-none text-white"
+                placeholder="Search city or postcode "
+                className="w-[200px] md:w-[200px] focus:md:w-[300px] 
+                p-2 rounded-lg text-white placeholder-white/80 bg-gradient-to-bl 
+                from-sky-400 via-blue-500 to-indigo-500 dark:via-slate-800 dark:from-sky-900 
+                dark:to-indigo-950 focus:outline-none animate-hueRotateSubtle transition-all duration-300"
                 value={searchCity}
                 onChange={(e) => setSearchCity(e.target.value)}
                 />
 
             <button 
-            className="bg-green-800 dark:bg-gray-900 dark:hover:bg-gray-950 text-white px-4 py-2 rounded-lg hover:bg-green-900 transition-transform transform active:scale-110 duration-300" 
+            className="animate-softPulse bg-gradient-to-l from-sky-600 via-blue-500 to-indigo-500 
+               dark:from-sky-900 dark:via-slate-800 dark:to-indigo-950 
+               hover:to-indigo-700 transition-transform transform active:scale-110 
+               duration-300 text-white px-4 py-2 rounded-lg" 
             onClick={handleSearch}
             >Search
             </button>

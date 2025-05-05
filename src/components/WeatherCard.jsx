@@ -5,16 +5,14 @@ const WeatherCard = ({ weatherData }) => {
   console.log("WeatherCard", weatherData);
   // preloaded cities and cities that you can search
   return (
-    <div>
-      {/* 
-        if data is true then render same div, so if something is searched then it renders the div for the searched city
-        */}
-      {weatherData.map((data, index) => (
+    <div className="flex flex-wrap px-5 justify-evenly ">
+      
+      {weatherData.map((data) => (
 
-        <div className="bg-blue-800 dark:bg-gray-800 text-white p-6 rounded-xl shadow-lg w-full mb-6">
-          <h2 className="text-xl font-semibold">{data ? data.city : "no info"}</h2>
-          <p className="text-3xl">{data ? Math.round(data.temperature) : "No info"}°C</p>
-          <p className="text-sm">Humidity: {data ? data.humidity : "No info"}% | Wind: {weatherData[0] ? weatherData[0].wind : "No info"} km/h</p>
+        <div key={data.city} className="animate-softPulse from-sky-600 via-blue-500 to-indigo-900 dark:via-slate-800 dark:from-sky-900 dark:to-indigo-950  rounded-xl p-6 shadow-[inset_0_0_6px_rgba(0,0,0,0.2)] border-2  w-[350px]">
+          <h2 className="text-3xl font-semibold">{data ? data.city : "no info"}</h2>
+          <p className="text-3xl font-bold mt-2">{data ? Math.round(data.temperature) : "No info"}°C</p>
+          <p className="text-lg font-semibold">Humidity: {data ? data.humidity : "No info"}% | Wind: {data.wind ? data.wind : "No info"} km/h</p>
         </div>
 
       ))}

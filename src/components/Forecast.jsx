@@ -1,6 +1,6 @@
 function Forecast({className}) {
     return (
-        <section className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-[1000px] mx-auto text-white">
+        <section className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-[1000px] p-8 mx-auto text-white">
         <div className="bg-blue-800 dark:bg-gray-800 p-4 rounded-lg shadow-md">
           <p className="text-lg">+22°C</p>
           <p className="text-sm">16 May, Tue</p>
