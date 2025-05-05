@@ -36,7 +36,7 @@ function Overview({ weather }) {
 
   return (
     <section className="max-w-5xl mx-auto p-8">
-  <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white/20 text-white">
+  <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-gray-300 text-white">
     
     {/* Pulsing Background */}
     <div className="absolute inset-0 animate-hueRotateSubtle  ease-in-out bg-gradient-to-bl from-sky-400 via-blue-500 to-indigo-900 dark:via-slate-800 dark:from-sky-900 dark:to-indigo-950 z-0" />

@@ -9,7 +9,7 @@ const WeatherCard = ({ weatherData }) => {
       
       {weatherData.map((data) => (
 
-        <div key={data.city} className="animate-softPulse from-sky-600 via-blue-500 to-indigo-900 dark:via-slate-800 dark:from-sky-900 dark:to-indigo-950  rounded-xl p-6 shadow-[inset_0_0_6px_rgba(0,0,0,0.2)] border-2  w-[350px]">
+        <div key={data.city} className="animate-softPulse bg-gradient-to-bl from-sky-600 via-blue-600 to-indigo-600 dark:via-slate-900 dark:from-sky-900 dark:to-indigo-950  rounded-xl p-6 shadow-[inset_0_0_10px_rgba(0,0,0,0.6)] border-2 border-white text-white w-[350px]">
           <h2 className="text-3xl font-semibold">{data ? data.city : "no info"}</h2>
           <p className="text-3xl font-bold mt-2">{data ? Math.round(data.temperature) : "No info"}°C</p>
           <p className="text-lg font-semibold">Humidity: {data ? data.humidity : "No info"}% | Wind: {data.wind ? data.wind : "No info"} km/h</p>
