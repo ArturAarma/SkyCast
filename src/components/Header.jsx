@@ -14,7 +14,7 @@ function Header({darkMode, setDarkMode, fetchWeather}) {
       };
 
 return (
-    <header className="bg-gray-400 dark:bg-gray-800 w-full flex justify-between items-center px-6 py-4 shadow-md">
+    <header className="bg-blue-700 dark:bg-gray-800 w-full flex justify-between items-center px-6 py-4 shadow-md">
     <h1 className="text-2xl font-semibold text-white">Weather Dashboard</h1>
     <div>
       <Search fetchWeather={fetchWeather} />

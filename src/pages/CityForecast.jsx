@@ -58,7 +58,7 @@ function CityForecast() {
   
 
   return (
-    <div className={`min-h-screen bg-gray-200  dark:bg-gray-900 `}>
+    <div className={`min-h-screen bg-gradient-to-t from-sky-300 via-blue-800 to-indigo-900 dark:via-slate-900 dark:from-sky-900 dark:to-indigo-950  `}>
       {/* Header */}
       <div>
         <Header darkMode={darkMode} setDarkMode={setDarkMode} fetchWeather={fetchWeather}/>
@@ -73,11 +73,14 @@ function CityForecast() {
         <Overview weather={weather} />
       </div>
 
-      {/* Forecast Section */}
-      <div >
-        <Forecast/>
-      </div>
 
+      {/* Forecast Section */}
+        {/* 
+      <div>
+        <Forecast />
+      </div> 
+      */}
+    
       {/* Side weather Card */}
       <div className="px-6 py-6">
         <WeatherCard weather={weather} weatherData={weatherData}/>

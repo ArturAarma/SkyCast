@@ -72,10 +72,14 @@ function Overview({ weather }) {
       </div>
 
       {/* Humidity Trends */}
+
+      {/*
       <div className="mt-6">
         <h3 className="text-lg font-semibold mb-2">Humidity Trends</h3>
         <div className="h-32 rounded-xl bg-gradient-to-r from-sky-600 via-blue-500 to-indigo-500 opacity-80 shadow-inner" />
       </div>
+      */}
+
     </div>
   </div>
 </section>
