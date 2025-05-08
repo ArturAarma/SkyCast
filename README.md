@@ -21,10 +21,6 @@ A **modern, responsive Weather Dashboard** built with **React and Tailwind CSS**
 ![image](https://github.com/user-attachments/assets/48a089fc-c1ac-4259-8023-025bc11f4b21)
 
 
-
-## 🎥 Demo Video
-Will upload it soon!
-
 ## 🏗️ How to Run Locally
 1. Clone the repo:
    ```bash
