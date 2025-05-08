@@ -18,7 +18,8 @@ A **modern, responsive Weather Dashboard** built with **React and Tailwind CSS**
 - **useState, useEffect, and useContext** for efficient state management
 
 ## 📸 UI
-![image](https://github.com/user-attachments/assets/1ba8a18a-887d-43cc-a3b4-bc94bf34c184)
+![image](https://github.com/user-attachments/assets/48a089fc-c1ac-4259-8023-025bc11f4b21)
+
 
 
 ## 🎥 Demo Video
