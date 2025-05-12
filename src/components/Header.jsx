@@ -6,6 +6,7 @@ function Header({darkMode, setDarkMode, fetchWeather}) {
 
     const [searchCity, setSearchCity] = useState("");
 
+    {/* Search function */}
     const handleSearch = () => {
         if (searchCity.trim() !== "") { // trims the search input
           fetchWeather(searchCity); 
