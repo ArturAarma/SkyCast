@@ -21,7 +21,7 @@ return (
         <div className="flex items-center space-x-2">
                 <input
                 type="text"
-                placeholder="Search city"
+                placeholder="Search "
                 className="w-[200px] md:w-[200px] focus:md:w-[300px] 
                 p-2 rounded-lg text-white placeholder-white/80 bg-gradient-to-bl 
                 from-sky-400 via-blue-500 to-indigo-500 dark:via-slate-800 dark:from-sky-900 
