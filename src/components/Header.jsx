@@ -28,7 +28,7 @@ return (
 
     {/* Dark Mode Toggle Button */}
     <button
-      className="px-4 py-2 text-sm font-medium text-balack bg-white dark:bg-gray-900 dark:text-white rounded-lg transition-all duration-200 border-2 border-white"
+      className="px-4 py-2 text-sm font-medium text-black bg-white dark:bg-gray-900 dark:text-white rounded-lg transition-all duration-200 border-2 border-white"
       onClick={() => setDarkMode(!darkMode)}
     >
       {darkMode ? "Light Mode" : "Dark Mode"}
